@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans',monospace;
+    list-style: none;
+}
+header{
+    width: 80%;
+    height: 90px;
+    border-bottom: solid 2px hsl(223, 64%, 98%);
+    display: flex;
+    align-items: center;
+   margin-left: 10%;
+   justify-content: space-between;
+}
+
+
+#avatar{
+   float: right;
+   width: 40px;
+   cursor: pointer;
+   border-radius: 50%;
+}
+#avatar:hover{
+    border: solid 2px hsl(26, 100%, 55%);
+    border-radius: 50%;
+}
+#cart{
+    margin-right: 45px;
+    margin-top: 13px;
+    width: 18px;
+    cursor: pointer;
+}
+#menu{
+    display: flex;
+    height: 80px;
+    margin-left: -380px;
+    margin-top: 62px;
+
+}
+header a{
+    margin-left: 30px;
+    cursor: pointer;
+    height: 50px;
+    color: hsl(219, 9%, 45%);
+    display: flex;
+    text-align: center;
+}
+header a:hover{
+    color:hsl(220, 13%, 13%);
+    border-bottom: solid 3px hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+.opencart.cartAcess{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cartAcess{
+    height: 180px;
+    width: 260px;
+    border-radius: 8px;
+    margin-top: 230px;
+    margin-left: 900px;
+    position: absolute;
+    box-shadow: 0 0  1em rgb(211, 211, 208);
+    background-color: white;
+    display: none;
+   
+}
+.cartAcess div{
+    border-bottom: solid 2px hsl(223, 64%, 98%);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.cartAcess div p{
+    
+    height: 20px;
+    font-size: 700;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+}
+.prod{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prod p{
+    font-size: 12px;
+}
