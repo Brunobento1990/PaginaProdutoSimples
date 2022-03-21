@@ -16,20 +16,32 @@ header{
 
 
 #avatar{
-   float: right;
-   width: 40px;
-   cursor: pointer;
-   border-radius: 50%;
+    float: right;
+    width: 40px;
+    cursor: pointer;
+   
+    border-radius: 50%;
 }
 #avatar:hover{
     border: solid 2px hsl(26, 100%, 55%);
     border-radius: 50%;
 }
 #cart{
-    margin-right: 45px;
-    margin-top: 13px;
     width: 18px;
+    margin-left: -70px;
+    margin-bottom: 10px;
     cursor: pointer;
+}
+#totcart{
+    display: none;
+    width: 18px;
+    border-radius: 5px;
+    font-size: 10px;
+    color: white;
+    margin-top: -35px;
+    margin-left: -60px;
+    text-align: center;
+    background: hsl(26, 100%, 55%);
 }
 #menu{
     display: flex;
@@ -56,7 +68,6 @@ header a:hover{
     flex-direction: column;
 }
 
-
 .cartAcess{
     height: 180px;
     width: 260px;
@@ -69,14 +80,14 @@ header a:hover{
     display: none;
    
 }
-.cartAcess div{
+.cartAcessdiv{
     border-bottom: solid 2px hsl(223, 64%, 98%);
     width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
 }
-.cartAcess div p{
+.cartAcessdiv p{
     
     height: 20px;
     font-size: 700;
@@ -86,11 +97,80 @@ header a:hover{
 }
 .prod{
     width: 100%;
-    height: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+#prod1{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: initial;
+    margin-top: 15px;
 }
-.prod p{
+.imgprod{
+    width: 40px;
+    border-radius: 4px;
+   
+}
+#texttot{
+    width: 190px;
+    height: 40px;
+}
+#text {
+    font-size: 12px;
+    margin-left: 10px;
+    width: 190px;
+    height: 18px;
+    color: hsl(219, 9%, 45%);
+}
+#preco{
+    font-size: 12px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: hsl(219, 9%, 45%);
+}
+#parcela{
+    font-size: 12px;
+    width: 20px;
+    margin-left: 63px;
+    margin-top: -14px;
+    color: hsl(219, 9%, 45%);
+}
+#total{
+    font-size: 12px;
+    width: 50px;
+    margin-left: 90px;
+    margin-top: -14px;
+    font-weight: 700;
+}
+#delet{
+    width: 10px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+#btncheck{
+    width: 85%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: hsl(26, 100%, 55%);
+    cursor: pointer;
+    font-weight: 700;
+}
+#vazio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#vazio p{
+    color: hsl(219, 9%, 45%);
     font-size: 12px;
 }

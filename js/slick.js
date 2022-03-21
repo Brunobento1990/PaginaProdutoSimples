@@ -4,7 +4,7 @@ var opencart1 = document.getElementById('opencart1');
 
 // add a classe opencart ou retira do carrinho
 cart.addEventListener('click',function () {
-    opencart1.classList.toggle('opencart'); a
+    opencart1.classList.toggle('opencart'); 
 
 })
 
@@ -56,11 +56,11 @@ var imgGrande = document.getElementById('imgGrande');
 
     var fechar = document.getElementById('fechar');
     var back = document.getElementById('back');
-    var proximo = document.getElementById('proximo');
+    var proximo = document.getElementById('proximoseta');
     var imgmain = document.getElementById('imgmain');
-   var anterior = document.getElementById('anterior');
+   var anterior = document.getElementById('anteriorseta');
 
-    // abre o slick
+    // abre o slick grande
     imgGrande.addEventListener('click',function () {
         back.style.display = 'inline'
     })
@@ -76,20 +76,14 @@ var imgGrande = document.getElementById('imgGrande');
             imgmain.setAttribute('src','./images/image-product-2.jpg')
             foto00.classList.remove('focopequena1')
             foto11.classList.add('focopequena1')
-            foto22.classList.remove('focopequena1')
-            foto33.classList.remove('focopequena1')
         }
         if (proximo1 === './images/image-product-2.jpg') {
             imgmain.setAttribute('src','./images/image-product-3.jpg')
-            foto00.classList.remove('focopequena1')
             foto11.classList.remove('focopequena1')
             foto22.classList.add('focopequena1')
-            foto33.classList.remove('focopequena1')
         }
         if (proximo1 === './images/image-product-3.jpg') {
             imgmain.setAttribute('src','./images/image-product-4.jpg')
-            foto00.classList.remove('focopequena1')
-            foto11.classList.remove('focopequena1')
             foto22.classList.remove('focopequena1')
             foto33.classList.add('focopequena1')
         }
@@ -99,24 +93,18 @@ var imgGrande = document.getElementById('imgGrande');
         let proximo1 = imgmain.getAttribute('src');
          if (proximo1 === './images/image-product-4.jpg') {
              imgmain.setAttribute('src','./images/image-product-3.jpg')
-             foto00.classList.remove('focopequena1')
-             foto11.classList.remove('focopequena1')
              foto22.classList.add('focopequena1')
              foto33.classList.remove('focopequena1')
          }
          if (proximo1 === './images/image-product-3.jpg') {
              imgmain.setAttribute('src','./images/image-product-2.jpg')
-             foto00.classList.remove('focopequena1')
              foto11.classList.add('focopequena1')
              foto22.classList.remove('focopequena1')
-             foto33.classList.remove('focopequena1')
          }
          if (proximo1 === './images/image-product-2.jpg') {
              imgmain.setAttribute('src','./images/image-product-1.jpg')
              foto00.classList.add('focopequena1')
              foto11.classList.remove('focopequena1')
-             foto22.classList.remove('focopequena1')
-             foto33.classList.remove('focopequena1')
          }
      })
 

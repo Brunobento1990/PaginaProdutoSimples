@@ -4,14 +4,14 @@
     position: absolute;
     margin-left: -140px;
     margin-top: -90px;
-    height: 750px;
+    height: 650px;
     background: rgba(0,0,0,0.7);
     backdrop-filter: blur(1px);
 }
 #slickImg{
 position: absolute;
 width: 70%;
-height: 90%;
+height: 80%;
 margin-left: 480px;
     margin-top: 50px;
 }
@@ -32,7 +32,7 @@ margin-left: 480px;
 }
 #imgPequenaSlick{
     margin-left: 35px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #fechar{
     margin-bottom: 470px;
@@ -40,7 +40,7 @@ margin-left: 480px;
     cursor: pointer;
 }
 #fechar:hover{
-    filter: opacity(0.4) drop-shadow(0 0 0  hsl(26, 100%, 55%)); 
+    filter: opacity(0.4) drop-shadow(0 0 0  hsl(36, 100%, 50%)); 
 }
 .seta{
     background-color: white;
@@ -48,14 +48,37 @@ margin-left: 480px;
     cursor: pointer;
 }
 #anterior{
-    position: absolute;
-    margin-top: 246px;
-    margin-left: -8px;
+    margin-left: 13px;
+    margin-top: 13px;
+    width: 10px;
+
 }
 #proximo{
-    margin-left: -10px;
+    margin-left: 16px;
+    margin-top: 13px;
+    width: 10px;
 }
 .focopequena1{
     border: solid 2px hsl(26, 100%, 55%);
     opacity: 0.5;
+}
+#proximoseta{
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    margin-left: 430px;
+    margin-top: -250px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#anteriorseta{
+    width: 40px;
+    position: absolute;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -250px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
 }

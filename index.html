@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/slickmain.css">
+  <link rel="stylesheet" href="./css/produto.css">
 
   <title>Frontend Mentor | E-commerce product page</title>
 
@@ -31,25 +32,46 @@
 </div>
   <div>
   <img id="cart" src="./images/icon-cart.svg" alt="cart">
+  <p id="totcart">3</p>
+  <div>
   <img id="avatar" src="./images/image-avatar.png" alt="avatar">
 </div>
+</div>
 <div class="cartAcess" id="opencart1">
-  <div>
+  <div class="cartAcessdiv">
     <p>Cart</p>
   </div>
-<section class="prod">
-<p>Your cart is empty</p>
+  <div id="vazio">
+    <p>Your cart is empty</p>
+  </div>
+<section class="prod" id="prod">
+  <div id="prod1">
+  <img class="imgprod" src="./images/image-product-1-thumbnail.jpg" alt="tenis">
+  <div id="texttot">
+    <p id="text">Fall Limited Edition Sneakers</p>
+<p id="preco">$125.00</p>
+  <p id="parcela"></p>
+  <p id="total"></p>
+</div>
+
+<img id="delet" src="./images/icon-delete.svg" alt="delete">
+</div>
+
+<button id="btncheck">checkout</button>
 </section>
 </div>
 </header>
 <main>
 <div class="back" id="back">
   <div id="slickImg">
-   
-    <img class="seta" id="anterior" src="./images/icon-previous.svg" alt="anterior">
     <img id="imgmain" src="./images/image-product-1.jpg" alt="tenis">
     <img id="fechar" src="./images/icon-close.svg" alt="fechar">
+    <figure id="anteriorseta">
+      <img class="seta" id="anterior" src="./images/icon-previous.svg" alt="anterior">
+    </figure>
+    <figure id="proximoseta">
     <img class="seta" id="proximo" src="./images/icon-next.svg" alt="proximo">
+  </figure>
     <div id="imgPequenaSlick">
       <img id="foto00" class="fotoslick" src="./images/image-product-1-thumbnail.jpg" alt="tenis">
       <img id="foto11" class="fotoslick" src="./images/image-product-2-thumbnail.jpg" alt="tenis">
@@ -72,11 +94,37 @@
 
 </figure>
 <section>
+  <article>
+    <h5>Sneaker Company</h5>
+    <h1>Fall Limited Edition Sneakers</h1>
+    <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+      durable rubber outer sole, they’ll withstand everything the weather can offer.
+    </p>
+  </article>
 
+  <div id="numb">
+<p id="numb1">$125.00</p>
+<p id="numb2">50%</p>
+  </div>
+<p id="numb3">$250.00</p>
+<hr>
+<section id="btnbtn">
+  <div id="btnmenos">
+    <img src="./images/icon-minus.svg" alt="menos">
+    </div>
+<p id="quants"></p>
+<div id="btnmais">
+<img src="./images/icon-plus.svg" alt="mais">
+</div>
+<div id="butom"><img src="./images/icon-cart.svg" alt="cart">
+<p id="butomp">Add to cart</p>
+</div>
+</section>
 </section>
 
 </main>
 
   <script src="./js/slick.js"></script>
+  <script src="./js/produto.js"></script>
 </body>
 </html>
