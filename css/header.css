@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans',monospace;
+    font-family: 'Space Mono', monospace;
     list-style: none;
 }
 header{
@@ -28,8 +28,6 @@ header{
 }
 #cart{
     width: 18px;
-    margin-left: -70px;
-    margin-bottom: 10px;
     cursor: pointer;
 }
 #totcart{
@@ -38,10 +36,9 @@ header{
     border-radius: 5px;
     font-size: 10px;
     color: white;
-    margin-top: -35px;
-    margin-left: -60px;
     text-align: center;
     background: hsl(26, 100%, 55%);
+    margin-left: 10px;
 }
 #menu{
     display: flex;
@@ -122,7 +119,7 @@ header a:hover{
 }
 #text {
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 5px;
     width: 190px;
     height: 18px;
     color: hsl(219, 9%, 45%);
@@ -130,27 +127,27 @@ header a:hover{
 #preco{
     font-size: 12px;
     width: 50px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 8px;
+    margin-left: 5px;
     color: hsl(219, 9%, 45%);
 }
 #parcela{
     font-size: 12px;
     width: 20px;
-    margin-left: 63px;
-    margin-top: -14px;
+    margin-left: 50px;
+    margin-top: -15px;
     color: hsl(219, 9%, 45%);
 }
 #total{
     font-size: 12px;
     width: 50px;
-    margin-left: 90px;
-    margin-top: -14px;
+    margin-left: 80px;
+    margin-top: -15px;
     font-weight: 700;
 }
 #delet{
     width: 10px;
-    margin-left: -20px;
+    margin-left: -10px;
     cursor: pointer;
 }
 #btncheck{
@@ -173,4 +170,8 @@ header a:hover{
 #vazio p{
     color: hsl(219, 9%, 45%);
     font-size: 12px;
+}
+#cart1{
+    width: 50px;
+    margin-right: -330px;
 }

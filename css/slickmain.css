@@ -19,20 +19,28 @@ margin-left: 480px;
     width: 450px;
     border-radius: 10px;
 }
-#slickImg .fotoslick{
+.fotoslick{
         width: 70px;
-        margin-left: 15px;
-        margin-top: 5px;
         border-radius: 10px;
         cursor: pointer;
     
 }
+.fundoimg{
+    width: 70px;
+    height: 70px;
+        margin-left: 25px;
+        margin-top: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: white;
+}
 #slickImg .fotoslick:hover{
-    opacity: 0.7;
+    opacity: 0.4;
 }
 #imgPequenaSlick{
     margin-left: 35px;
     margin-top: 20px;
+    display: flex;
 }
 #fechar{
     margin-bottom: 470px;
@@ -42,6 +50,7 @@ margin-left: 480px;
 #fechar:hover{
     filter: opacity(0.4) drop-shadow(0 0 0  hsl(36, 100%, 50%)); 
 }
+
 .seta{
     background-color: white;
     margin-bottom: 220px;
@@ -59,8 +68,10 @@ margin-left: 480px;
     width: 10px;
 }
 .focopequena1{
-    border: solid 2px hsl(26, 100%, 55%);
-    opacity: 0.5;
+    border: solid 2px hsl(36, 100%, 50%);
+    opacity: 0.3;
+    width: 66px;
+    height: 67px;
 }
 #proximoseta{
     width: 40px;

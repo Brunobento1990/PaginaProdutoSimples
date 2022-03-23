@@ -108,6 +108,37 @@ var imgGrande = document.getElementById('imgGrande');
          }
      })
 
+
+     //Slick imagens pequena com slick ampliado
+     foto00.addEventListener('click',function () {
+        imgmain.setAttribute('src','./images/image-product-1.jpg')
+        foto00.classList.add('focopequena1')
+        foto11.classList.remove('focopequena1')//adcionar class com desfoque e borda na imagens pequenas
+        foto22.classList.remove('focopequena1')
+        foto33.classList.remove('focopequena1')
+    })
+    foto11.addEventListener('click',function () {
+        imgmain.setAttribute('src','./images/image-product-2.jpg')
+        foto11.classList.add('focopequena1')
+        foto00.classList.remove('focopequena1')
+        foto22.classList.remove('focopequena1')//adcionar class com desfoque e borda na imagens pequenas
+        foto33.classList.remove('focopequena1')
+    })
+    foto22.addEventListener('click',function () {
+        imgmain.setAttribute('src','./images/image-product-3.jpg')
+        foto22.classList.add('focopequena1')
+        foto00.classList.remove('focopequena1')//adcionar class com desfoque e borda na imagens pequenas
+        foto11.classList.remove('focopequena1')
+        foto33.classList.remove('focopequena1')
+    })
+    foto33.addEventListener('click',function () {
+        imgmain.setAttribute('src','./images/image-product-4.jpg')
+        foto33.classList.add('focopequena1')
+        foto00.classList.remove('focopequena1')
+        foto22.classList.remove('focopequena1')//adcionar class com desfoque e borda na imagens pequenas
+        foto11.classList.remove('focopequena1')
+    })
+
   
     
 
