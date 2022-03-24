@@ -8,7 +8,7 @@ cart.addEventListener('click',function () {
 
 })
 
-// slide fotos pequenas
+// slide fotos pequenas.
 
 var imgGrande = document.getElementById('imgGrande');
     var foto = document.getElementById('foto');
